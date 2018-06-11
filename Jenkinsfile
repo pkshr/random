@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            bat 'echo %NAME%'
+            bat 'echo %Name%'
           }
         }
         stage('Build2') {
